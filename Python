@@ -1,0 +1,28 @@
+#
+# Created by: Aayman Shameem
+# Created on: Mar 20, 2018
+#
+# This code will tell the user if their number is positive, negative or zero
+#
+
+# the input of the user
+userInput = int( input() )
+
+# show positive if greater than zero
+if userInput > 0:
+	print( "Positive" )
+pass
+
+# show negative if less than zero
+if userInput < 0:
+	print( "Negative" )
+pass
+
+
+# show 0 if equal to zero
+if userInput == 0:
+	print( "Zero" )
+pass
+
+
+exit( input( "Enter" ) )
